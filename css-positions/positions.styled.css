@@ -1,0 +1,39 @@
+ .common {
+ width: 35rem;
+ height: 20rem;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+h1, h2 {
+    text-align: center;
+}
+.wrap {
+    background-color: saddlebrown;
+    position: static;
+    top: 20rem
+}
+.wrap1 {
+    background-color: grey;
+    position: relative;
+    top: 20rem
+}
+.wrap2 {
+    background-color: rosybrown;
+    position: absolute;
+    bottom: 6rem;
+    right: 2rem;
+}
+ .wrap3{
+    background-color: beige;
+    position: sticky;
+    top: 3rem;
+    right: 2rem;
+}
+ .wrap4{
+    background-color:rebeccapurple;
+    position: fixed;
+    bottom: 1rem;
+    left: 2rem;
+}
