@@ -1,0 +1,47 @@
+ .common {
+ width: 8rem;
+ height: 4rem;
+}
+.container {
+    display: flex;
+    border: 3px solid lavender; 
+    justify-content: space-evenly;
+    /* space-evenly center space around  space between flex end flex start*/
+    flex-direction: row-reverse;
+}
+.container1 {
+    display: flex;
+    border: 3px solid lavender; 
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+.container2 {
+    display: flex;
+    border: 3px solid lavender; 
+    flex-direction: row-reverse;
+    height: 100%;
+    justify-content: space-between;
+}
+h1, h2 {
+    text-align: center;
+}
+.wrap1 {
+    background-color: rosybrown;
+}
+.wrap2 {
+    background-color: rosybrown;
+}
+ .wrap3{
+    background-color: beige;
+}
+ .wrap4{
+    background-color:rebeccapurple;
+ }
+ .wrap5{
+    background-color: beige;
+}
+
+
+
+
